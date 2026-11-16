@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Find recipes, browse ingredients and discover what to cook next with Forkify." />
+    <link href="./index_files/fonts.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="./src/img/favicon.png" type="image/png" />
+    <link rel="stylesheet" href="./src/sass/main.scss" />
+    <script type="module" src="./src/js/controller.js"></script>
+    <title>forkify // Find your next recipe</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <img src="./src/img/logo.png" alt="Forkify" class="header__logo" />
+        <form class="search" role="search">
+          <input type="search" class="search__field" placeholder="Search recipes: pizza, pasta..."
+            aria-label="Search for a recipe or an ingredient" autocomplete="off" />
+          <button type="submit" class="btn search__btn">
+            <svg class="search__icon" aria-hidden="true">
+              <use href="src/img/icons.svg#icon-search"></use>
+            </svg>
+            <span>Search</span>
+          </button>
+        </form>
+      </header>
+
+      <aside class="search-results" aria-label="Search results">
+        <ul class="results" aria-live="polite" aria-busy="false">
+          <li class="message">
+            <div><svg aria-hidden="true"><use href="src/img/icons.svg#icon-search"></use></svg></div>
+            <p>Find your next favorite recipe. Start with pizza, pasta or avocado.</p>
+          </li>
+        </ul>
+        <nav class="pagination" aria-label="Results pages"></nav>
+        <p class="copyright">
+          &copy; Copyright by
+          <a class="twitter-link" target="_blank" rel="noopener noreferrer"
+            href="https://twitter.com/jonasschmedtman">Jonas Schmedtmann</a>.
+          Use for learning or your portfolio. Don't claim as your own.
+        </p>
+      </aside>
+
+      <main class="recipe" aria-label="Recipe details" aria-live="polite" aria-busy="false">
+        <div class="message">
+          <div><svg aria-hidden="true"><use href="src/img/icons.svg#icon-smile"></use></svg></div>
+          <p>Start by searching for a recipe or an ingredient. Try pizza, pasta or avocado!</p>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

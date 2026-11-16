@@ -1,0 +1,9 @@
+{
+  "name": "fractional",
+  "version": "1.0.0",
+  "description": "fraction arithmetic (vendored from the upstream repository)",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "Erik Garrison",
+  "repository": "https://github.com/ekg/fraction.js"
+}

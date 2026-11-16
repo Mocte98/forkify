@@ -1,0 +1,22 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Buscador de recetas con arquitectura MVC, API de Forkify y paginación",
+  "author": "Daniel Moctezuma",
+  "type": "commonjs",
+  "source": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "build:portable": "node scripts/build-portable.cjs",
+    "test": "node --experimental-vm-modules tests/app.test.cjs"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.16.4",
+    "parcel": "^2.16.4",
+    "sass": "1.105.2"
+  },
+  "dependencies": {
+    "fractional": "file:vendor/fractional"
+  }
+}

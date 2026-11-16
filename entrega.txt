@@ -1,0 +1,5 @@
+Proyecto final: Forkify
+Alumno: Daniel Moctezuma
+
+Repositorio GitHub: PENDIENTE - reemplazar con el enlace de tu repositorio
+Aplicación Netlify: PENDIENTE - reemplazar con el enlace público de tu aplicación
